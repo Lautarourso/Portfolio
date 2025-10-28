@@ -68,14 +68,26 @@
   }
   
   .project {
-    margin: 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;    
+    margin: 6rem 0;
   }
   
   .project img {
-    max-width: 50%;
-    height: auto;
+    width: 400px;
+    height: 150px;
     border-radius: 6px;
+    object-fit: stretch;
   }
+
+  .project-info {
+  flex: 54;                 /* el texto ocupa el resto del espacio */
+  flex-direction: column;  /* los elementos del texto van de arriba a abajo */
+  justify-content: center;
+  text-align: center;
+}
   
   .project h3 {
     margin: 0.5rem 0 0.2rem;
