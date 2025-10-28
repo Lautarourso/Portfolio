@@ -6,12 +6,6 @@
     font-family: Arial, sans-serif;
   }
   
-  [data-theme="dark"] {
-    --color-bg: #121212;
-    --color-text: #e0e0e0;
-    --color-primary: #3399ff;
-    --color-accent: #66ccff;
-  }
   
   body {
     margin: 0;
@@ -74,11 +68,11 @@
   }
   
   .project {
-    margin: 1.5rem 0;
+    margin: 5rem 0;
   }
   
   .project img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     border-radius: 6px;
   }
