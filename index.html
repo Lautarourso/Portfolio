@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio – Lautaro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="light">
+
+  <header>
+    <img src="tu-foto.jpg" alt="Foto de Lautaro" class="foto-perfil">
+    <h1>Hola, soy Lautaro</h1>
+    <p>Desarrollador Web · Apasionado por los videojuegos · Experiencia en Unity, Node.js y React</p>
+    <nav>
+      <button onclick="scrollToSection('experiencia')">Experiencia</button>
+      <button onclick="scrollToSection('proyectos')">Proyectos</button>
+      <button onclick="scrollToSection('sobre-mi')">Sobre mí</button>
+      <button onclick="scrollToSection('contacto')">Contacto</button>
+    </nav>
+  </header>
+
+  <section id="experiencia">
+    <h2>Experiencia</h2>
+    <ul>
+      <li><strong>Programacion de videojuegos 2d (Unity) más multiplayer </strong> – Proyecto “Shadow Showdon” (2024)</li>
+      <li><strong>Backend Node.js / Frontend html</strong> – Proyecto "CalibraX" (2025) y "Trabajo final" (2024)</li>
+    </ul>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+
+    <div class="project">
+      <img src="proyecto-unity.jpg" alt="Captura proyecto Unity La Chiqui League">
+      <h3>La Chiqui League</h3>
+      <p>Juego hecho en Unity 2D, simulador de canal con esclusas, barcos y colas.</p>
+      <p><a href="https://github.com/usuario/la-chiqui-league" target="_blank">Ver en GitHub</a></p>
+    </div>
+
+    <div class="project">
+      <img src="proyecto-web.jpg" alt="Captura proyecto web React/Node">
+      <h3>Página Web de Inscripción / Registro</h3>
+      <p>Frontend en React, Backend en Node.js con login/registro y gestión de base de datos.</p>
+      <p><a href="https://github.com/usuario/web-registro" target="_blank">Ver en GitHub</a></p>
+    </div>
+
+    <div class="project">
+      <img src="proyecto-multiplayer.jpg" alt="Captura proyecto multiplayer Unity">
+      <h3>Multiplayer 1v1 con Photon / Mirror</h3>
+      <p>Juego local + red hecho en Unity, integración de Photon PUN para matchmaking.</p>
+      <p><a href="https://github.com/usuario/unity-multiplayer" target="_blank">Ver en GitHub</a></p>
+    </div>
+  </section>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Soy Lautaro, desarrollador de videojuegos 2D con Unity y desarrollador web con React + Node.js. Me gusta mantener mi código limpio y simple.</p>
+    <img src="foto-sobre-mi.jpg" alt="Foto sobre mí" class="foto-sobre-mi">
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Quieres colaborar o necesitas un desarrollador? Escríbeme:</p>
+    <p>lautarourso@gmail.com</p>
+    <p>También me puedes encontrar en <a href="https://www.linkedin.com/in/lautaro-urso-443a38291/" target="_blank">LinkedIn</a>.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Lautaro. Todos los derechos reservados.</p>
+    </p>
+  </footer>
+
+  <script>
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+
+
+
+  </script>
+</body>
+</html>
