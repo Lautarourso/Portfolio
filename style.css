@@ -36,25 +36,6 @@
     color: var(--color-text);
   }
   
-  nav {
-    margin: 1rem 0;
-  }
-  
-  nav button {
-    margin: 0 0.5rem;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    cursor: pointer;
-    background: var(--color-primary);
-    color: white;
-    border: none;
-    border-radius: 4px;
-    transition: background 0.3s;
-  }
-  
-  nav button:hover {
-    background: var(--color-accent);
-  }
   
   section {
     max-width: 800px;
@@ -102,13 +83,7 @@
     text-decoration: underline;
   }
   
-  .foto-sobre-mi {
-    width: 100%;
-    max-width: 400px;
-    border-radius: 8px;
-    display: block;
-    margin: 1rem 0;
-  }
+
   
   footer {
     text-align: center;
